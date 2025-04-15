@@ -17,7 +17,7 @@ This repository contains ROS packages for running a TurtleBot3 simulation with R
 
 2. Build the workspace:
    ```
-   colcon build --simulaink-installl
+   colcon build --simulink-install
    ```
    
    If you encounter any errors or warnings, run the build command again.
@@ -30,7 +30,7 @@ Open three separate terminal windows and run the following commands:
 
 ```bash
 source devel/setup.bash
-roslaunch turltebot_gazebo TUrtlebot3_factory.lunch
+roslaunch turltebot_gazebo Turtlebot3_factory.launch
 ```
 Env starts with robot at Truck Port
 
